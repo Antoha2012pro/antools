@@ -1,0 +1,39 @@
+:root {
+    --logo-color: rgba(255, 255, 255, 0.90);
+}
+
+body {
+    background-color: #1E252B;
+}
+
+.container {
+    width: 1249px;
+    padding: 0 15px; 
+    margin: 0 auto; 
+}
+
+/* font-family: "Roboto", sans-serif;
+font-family: "Poppins", sans-serif; */
+
+
+.header {
+    padding: 26px 0px 104px 0px;
+}
+
+.header > .container {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.header-logo-link {
+    display: flex;
+    align-items: center;
+    color: var(--logo-color);
+    font-family: Poppins;
+    font-size: 22px;
+    font-style: normal;
+    font-weight: 600;
+    line-height: normal;
+    gap: 12px;
+}
